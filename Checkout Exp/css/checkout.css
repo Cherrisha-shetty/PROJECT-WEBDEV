@@ -5,16 +5,15 @@ body{
 }
 
 
- img{
-	height: 850px;
-	width: 850px;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-
-
-
-}
+ .card {
+	 /*width: auto;*/
+	 /*height: auto;*/
+	 width: 50%;
+	 height: auto;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+ }
 
 .title{
 	text-align:center;
