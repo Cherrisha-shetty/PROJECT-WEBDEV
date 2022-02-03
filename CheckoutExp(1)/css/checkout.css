@@ -1,0 +1,82 @@
+/*EXPERIMENT*/
+
+
+body{
+	background-color: #005d53;
+}
+
+.container{
+	width: 60%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	border:none;
+	border-radius:31px;
+	position: relative;
+  	color: white;
+
+}
+
+.title{
+	text-align:center;
+	font-size:45px;
+	font-weight: bold;
+	color:black;
+
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 45%;
+  left: 20px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom:26.8%;
+  left: 50%;
+  
+}
+
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.col-50 {
+  position:relative;
+  width: 250px;
+  padding: 0 16px;
+
+}
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 3px;
+  border: none;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, .15);
+  background-filter: blur(5px);
+  color:white;
+}
+
