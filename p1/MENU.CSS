@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+:root {
+  --red: #ff3838;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+*::selection {
+  background: var(--red);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #0e0c0b 0%,
+    #11070017 50%,
+    #aa332b 50%,
+    #aa332b 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #e9d6cd; */
+}
+
+section {
+  padding: 2rem 9%;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #13020200;
+  padding: 2rem 9%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #666;
+}
+
+header .logo i {
+  padding-right: 0.5rem;
+  color: var(--red);
+}
+
+header .navbar a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #666;
+}
+
+header .navbar a:hover {
+  color: #fff;
+}
+.food-cart {
+  position: relative;
+  top: 40px;
+  width: 550px;
+  height: 423px;
+  margin: 80px auto;
+  background: #35140362;
+  border: 0.25rem solid #fff;
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+}
+.food-cart-6 {
+  position: relative;
+  top: 160px;
+  width: 550px;
+  height: 733px;
+  margin: 80px auto;
+  background: #0f060117;
+  border: 0.25rem solid rgb(136, 8, 8);
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #e1e8ee00;
+  padding: 20px 30px;
+  /* color: #5e6977; */
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+
+/* .is-active {
+  animation-name: animate;
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+@keyframes animate {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: right;
+  }
+} */
+
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+  font-size: 20px;
+}
+.description6 {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+  font-size: 18px;
+}
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+}
+
+button[class*="btn"] {
+  width: 30px;
+  height: 30px;
+  background-color: #ffff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+
+button:focus,
+input:focus {
+  outline: 0;
+}
+.total-price {
+  width: 83px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+.total-price6 {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
