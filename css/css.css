@@ -58,7 +58,11 @@
     background: var(--white-color);
     font-family: var(--base-font-family);
   }
-
+  
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
 
   /*---------------------------------------
      TYPOGRAPHY              
@@ -298,12 +302,7 @@
      GENERAL               
   -----------------------------------------*/
 
-  * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
+ 
   *::before,
   *::after {
     -webkit-box-sizing: border-box;
@@ -327,19 +326,6 @@
   }
 
 
-  /* BG OVERLAY */
-
-  .bg-overlay {
-    background: var(--dark-color);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.25;
-  }
   
   /*---------------------------------------
     FEATURE          
@@ -365,7 +351,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -1;
   }
   .hero-text {
     text-align: center;
@@ -522,54 +507,3 @@
   .site-footer .fa {
     color: var(--primary-color);
   }
-
-
-  
-  /*---------------------------------------
-     RESPONSIVE STYLES              
-  -----------------------------------------*/
-
-  @media screen and (max-width: 992px) {
-
-    .section {
-      padding: 5rem 0;
-    }
-
-    .nav-item .nav-link {
-      padding: 6px;
-    }
-
-    .navbar .social-icon {
-      margin-top: 22px;
-    }
-
-    .navbar-collapse,
-    .site-footer {
-      text-align: center;
-    }
-
-    .schedule-table {
-      display: block;
-    }
-
-    .modal-content {
-      padding: 2rem;
-    }
-  }
-
-  @media screen and (max-width: 767px) {
-
-    h1 {
-      font-size: 38px;
-    }
-
-    .about-working-hours {
-      border-left: 0;
-      padding: 22px 0 0 0;
-    }
-
-    .contact h2 span {
-      display: block;
-    }
-  }
-  
