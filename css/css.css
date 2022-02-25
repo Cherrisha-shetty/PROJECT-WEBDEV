@@ -55,13 +55,10 @@
   }
   
   body {
-    background: var(--white-color);
-    font-family: var(--base-font-family);
-  }
-  
-  *{
     margin: 0px;
     padding: 0px;
+    background: var(--white-color);
+    font-family: var(--base-font-family);
   }
 
   /*---------------------------------------
