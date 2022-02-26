@@ -304,6 +304,7 @@
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
     background-color: #c31;
+    color: white;
   }
 
   /* Show the dropdown menu on hover */
