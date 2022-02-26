@@ -485,4 +485,9 @@
     margin-top: auto;
     margin-bottom: auto;
     float: left;
+    padding: 5px;
+  }
+ 
+  .name{
+    float: left;
   }
