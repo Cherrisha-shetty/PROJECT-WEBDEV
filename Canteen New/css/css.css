@@ -453,6 +453,7 @@
   .row {
     padding: 0.2%;
     margin: 0px;
+    background-color: #f1f1f1;
   }
 
   /* Clear floats after the columns */
@@ -475,10 +476,9 @@
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
-    text-align: center;
-    background-color: #f1f1f1;
+    background-color: #e4e9f7;
     display: inline-block;
-    border-radius: 2%;
+    border-radius: 0.5%;
   }
 
   .canteen {
@@ -488,11 +488,18 @@
     margin: 1%;
     float: left;
     padding: 5px;
-    border-radius: 2%;
   }
  
   .name{
     float: left;
     padding-top: 1%;
-    padding-left: 2%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  .description{
+    text-align: left;
+    padding: 5%;
+    padding-left: 3px;
   }
