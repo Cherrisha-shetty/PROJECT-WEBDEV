@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbd45d5a-c4dd-4ed9-a1bb-564a4411749f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PROJECT WEBDEV.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PROJECT WEBDEV.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/canteen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Canteens/canteen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Canteens/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Canteens/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/js/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Canteens/js/smoothscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="bbd45d5a-c4dd-4ed9-a1bb-564a4411749f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +46,7 @@
       <workItem from="1645774430478" duration="4956000" />
       <workItem from="1645786581487" duration="14996000" />
       <workItem from="1645806979788" duration="1001000" />
-      <workItem from="1645894990104" duration="7901000" />
+      <workItem from="1645894990104" duration="8286000" />
     </task>
     <servers />
   </component>
