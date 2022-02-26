@@ -451,6 +451,7 @@
 
   /* Remove extra left and right margins, due to padding */
   .row {
+    padding: 0.2%;
     margin: 0px;
   }
 
@@ -473,21 +474,25 @@
   /* Style the counter cards */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    width: 100%;
     text-align: center;
     background-color: #f1f1f1;
+    display: inline-block;
+    border-radius: 2%;
   }
 
   .canteen {
-    width: 25%;
+    width: 35%;
     display: block;
     height: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 1%;
     float: left;
     padding: 5px;
+    border-radius: 2%;
   }
  
   .name{
     float: left;
+    padding-top: 1%;
+    padding-left: 2%;
   }
