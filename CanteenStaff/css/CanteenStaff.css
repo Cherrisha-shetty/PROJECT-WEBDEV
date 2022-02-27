@@ -429,10 +429,10 @@
     FEATURE          
   -----------------------------------------*/
 
-  .feature {
-    background: var(--dark-color);
-    padding: 5rem 0;
-  }
+  /*.feature {*/
+  /*  background: var(--dark-color);*/
+  /*  padding: 5rem 0;*/
+  /*}*/
 
   /*---------------------------------------
   CANTEENS        
@@ -446,14 +446,15 @@
   .column {
     float: left;
     width: 100%;
-    padding: 0 10px;
+    padding: 10px;
+    padding-top: 2%;
   }
 
   /* Remove extra left and right margins, due to padding */
   .row {
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0.2%;
-    margin: 0px;
-    background-color: #f1f1f1;
   }
 
   /* Clear floats after the columns */
@@ -474,34 +475,59 @@
 
   /* Style the counter cards */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     background-color: #e4e9f7;
     display: inline-block;
-    border-radius: 0.5%;
+    border-radius: 10px;
   }
 
-  .canteen {
-    width: 35%;
+  .image {
+    width: 10%;
     display: block;
     height: auto;
     margin: 1%;
     float: left;
     padding: 5px;
+    border-radius: 10px;
   }
  
   .name{
     float: left;
-    padding-top: 1%;
+    padding: 0.5%;
     font-size: 40px;
     text-transform: uppercase;
     color: black;
   }
   
   .description{
+    margin-top: 2%;
     text-align: left;
-    padding: 5%;
-    padding-left: 3px;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  
+  .orders{
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 90%;
+  }
+  
+  .date
+  {
+    font-size: 20px;
+    margin-right: 2%;
+    text-align: right;
+    float: right;
+  }
+  
+  .details
+  {
+    font-size: 20px;
+    margin-left: 50%;
+    margin-right: 2%;
+    margin-top: 20%;
+    margin-bottom: 2%;
+    text-align: right;
   }
   
   .order-queue, h3
@@ -512,3 +538,5 @@
     padding-top: 2%;
     padding-left: 2%;
   }
+  
+  
