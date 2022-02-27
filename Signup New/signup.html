@@ -2,40 +2,33 @@
 <html>    
 <head>    
     <title>Signin Form</title>    
-    <link rel="stylesheet" type="text/css" href="../Signup New/css/signup.css" media=""screen"/>    
+    <link rel="stylesheet" type="text/css" href="../Signup New/css/signup.css" media=""screen"/>
+    <script type="text/javascript" src="../js/js.js"></script>
 </head>    
-<body>    
-    <h2>Signin Page</h2><br>    
-    <div class="login">    
-    <form id="login" method="get" action="signin.php">    
-        <label><b>User Name     
-        </b>    
-        </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username">    
-        <br><br>    
-        <label><b>Password     
-        </b>    
-        </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
-        <br><br>
-        <label><b>Student or Faculty
-            </b>
-            </label>
-            <input type="text" name="stfc" id="stfc" placeholder="Student or Faculty">
-            <br><br>
-            <label><b>Canteen
-            </b>
-            </label>
-            <input type="text" name="can" id="can" placeholder="Canteen">
-            <br><br>
-            
-        <input type="button" name="log" id="log" value="Log In Here">       
-        <br><br>    
-        <input type="checkbox" id="check">    
-        <span>Remember me</span>    
-        <br><br>    
-        Forgot <a href="#">Password</a>    
-    </form>     
-</div>    
+<body>
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="subscribe.html" name="myform" method="post" onsubmit="return validateform()">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="name" class="box" placeholder="enter your email" id="">
+            <span>password</span>
+            <input type="password" name="password" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>don't have an account ? <a href="register.html">create one</a></p>
+        </form>
+
+    </div>
+
+
+
+
 </body>    
 </html>
