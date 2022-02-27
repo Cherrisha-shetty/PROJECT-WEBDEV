@@ -211,7 +211,7 @@ body {
 /*Shopping cart*/
 
 .shopping-cart {
-    width: 750px;
+    width: 90%;
     height: auto;
     margin: 80px auto;
     background: #FFFFFF;
@@ -249,7 +249,7 @@ body {
     padding-top: 15px;
     margin-right: 60px;
     width: 25%;
-    padding-left: 10%;
+    padding-left: 3%;
 }
 
 .description span {

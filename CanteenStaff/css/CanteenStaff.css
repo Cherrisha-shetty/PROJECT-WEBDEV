@@ -539,4 +539,12 @@
     padding-left: 2%;
   }
   
+ 
+
+  .number {
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+  }
+  
   
