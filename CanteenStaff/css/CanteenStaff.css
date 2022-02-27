@@ -446,7 +446,7 @@
   .column {
     float: left;
     width: 100%;
-    padding: 10px;
+    padding: 100px;
     padding-top: 2%;
   }
 
@@ -475,6 +475,9 @@
 
   /* Style the counter cards */
   .card {
+    text-align: center;
+    margin-bottom: 2%;
+    padding-bottom: 0.5%;
     width: 100%;
     background-color: #e4e9f7;
     display: inline-block;
@@ -507,14 +510,73 @@
   }
   
   .orders{
-    text-transform: capitalize;
+    text-transform: none;
     text-align: left;
-    padding-left: 90%;
+    /*padding-left: 90%;*/
+  }
+  
+  .qty
+  {
+    text-transform: lowercase;
+    display: block;
+  }
+  
+  .total
+  {
+    text-transform: uppercase;
+    padding-left: 120%;
+  }
+
+  .total2
+  {
+    text-transform: uppercase;
+    padding-left: 115%;
+  }
+  
+  .cost
+  {
+    font-weight: bold;
+    margin-left: 250%;
+  }
+
+  .cost1
+  {
+    font-weight: bold;
+    margin-left: 150%;
+  }
+  
+  .qty
+  {
+    font-weight: bold;
+    margin-left: 100%;  
   }
   
   .date
   {
+    font-weight: bold;
     font-size: 20px;
+    margin-right: 2%;
+    text-align: right;
+    float: right;
+  }
+  
+  .status-awaited
+  {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ff4848;
+    font-weight: bold;
+    margin-right: 2%;
+    text-align: right;
+    float: right;
+  }
+
+  .status-completed
+  {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #48bfff;
+    font-weight: bold;
     margin-right: 2%;
     text-align: right;
     float: right;
@@ -522,12 +584,12 @@
   
   .details
   {
-    font-size: 20px;
-    margin-left: 50%;
-    margin-right: 2%;
-    margin-top: 20%;
-    margin-bottom: 2%;
-    text-align: right;
+    /*font-size: 20px;*/
+    /*margin-left: 50%;*/
+    /*margin-right: 2%;*/
+    /*margin-top: 20%;*/
+    /*margin-bottom: 2%;*/
+    /*text-align: right;*/
   }
   
   .order-queue, h3
@@ -539,4 +601,43 @@
     padding-left: 2%;
   }
   
+  .order-button-ready
+  { 
+    font-weight: bold;
+    padding: 1%;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #ff4848;
+    text-align: center;
+    color: white;
+  }
+
+  .order-button-collected
+  {
+    font-weight: bold;
+    padding: 1%;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #82ff71;
+    text-align: center;
+    color: black;
+  }
   
+  .order-button-ready:hover
+  {
+    color: black;
+    background-color: #82ff71;
+  }
+  
+  .order-button:disabled
+  {
+    background-color: #969696;
+  }
+  
+  .number {
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+  }

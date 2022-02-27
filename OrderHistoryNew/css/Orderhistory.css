@@ -211,7 +211,7 @@ body {
 /*Shopping cart*/
 
 .shopping-cart {
-    width: 750px;
+    width: 90%;
     height: auto;
     margin: 80px auto;
     background: #FFFFFF;
@@ -228,9 +228,9 @@ body {
     height: 60px;
     border-bottom: 1px solid #E1E8EE;
     padding: 20px 30px;
-    color: #5E6977;
+    color: black;
+    font-weight: bold;
     font-size: 18px;
-    font-weight: 400;
 }
 
 .item {
@@ -246,10 +246,10 @@ body {
 }
 
 .description {
-    padding-top: 15px;
-    margin-right: 60px;
-    width: 25%;
-    padding-left: 10%;
+    padding-top: 0px;
+    padding-right: 3%;
+    width: 35%;
+    padding-left: 3%;
 }
 
 .description span {
@@ -288,14 +288,14 @@ body {
 /*Price*/
 
 .price {
-    width: 83px;
-    padding-top: 15px;
+    width: 25%;
+    padding-top: 10%;
     text-align: center;
     font-size: 16px;
-    color: #43484D;
-    font-weight: 300;
+    color: black;
+    font-weight: 500;
     text-align: right;
-    float: right;
+    float: bottom;
 }
 
 .total-price{
@@ -447,5 +447,19 @@ input[type=numberthird]::-webkit-outer-spin-button {
 .pay-button:hover{
     background-color: #39803c;
     color: white;
+}
+
+.canteen-img{
+    width: 35%;
+    height:auto;
+    padding: 1%;
+}
+
+.canteens-img{
+   padding:0px;
+}
+
+.order-date{
+    color: #585858;
 }
 
