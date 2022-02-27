@@ -41,98 +41,58 @@
     </div>
 
     <!-- Product #1 -->
+    
     <div class="item">
-        
-
         <div class="description">
             <span>Oreo Milkshake</span>
         </div>
-
-        <div class="quantity">
-            <button class="plus-btn" type="button" name="button">+
-          <img src="plus.svg" alt="" />
-        </button>
-            <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">-
-          <img src="minus.svg" alt="" />
-        </button>
+        <div class="plusminus">
+            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+            <input type="number" id="number" value="0" />
+            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
         </div>
-
-        <div class="total-price">₹50</div>
+        <div class="price">₹50</div>
     </div>
 
-    <!-- Product #2 -->
     <div class="item">
-        <div class="buttons">
-            <span class="delete-btn"></span>
-            <span class="like-btn"></span>
-        </div>
-
-        <div class="image">
-            <img src="item-2.png" alt="" />
-        </div>
-
         <div class="description">
             <span>Schezwan Roll</span>
         </div>
-
-        <div class="quantity">
-            <button class="plus-btn" type="button" name="button">+
-          <img src="plus.svg" alt="" />
-        </button>
-            <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">-
-          <img src="minus.svg" alt="" />
-        </button>
+        <div class="plusminus">
+        <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+        <input type="number" id="number" value="0" />
+        <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
         </div>
-
-        <div class="total-price">₹45</div>
+        <div class="price">₹45</div>
     </div>
 
-    <!-- Product #3 -->
     <div class="item">
-        <div class="buttons">
-            <span class="delete-btn"></span>
-            <span class="like-btn"></span>
-        </div>
-
-        <div class="image">
-            <img src="item-3.png" alt="" />
-        </div>
-
         <div class="description">
             <span>Vada Pav</span>
         </div>
-
-        <div class="quantity">
-            <button class="plus-btn" type="button" name="button">+
-          <img src="plus.svg" alt="" />
-        </button>
-            <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">-
-          <img src="minus.svg" alt="" />
-        </button>
+        <div class="plusminus">
+        <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+        <input type="number" id="number" value="0" />
+        <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
         </div>
-
-        <div class="total-price">₹30</div>
+        <div class="price">₹30</div>
     </div>
-
+    
     <!-- Total -->
+    
     <div class="item">
-        <div class="buttons">
-            <span class="delete-btn"></span>
-            <span class="like-btn"></span>
-        </div>
-        <div class="image">
-            <img src="item-3.png" alt="" />
-        </div>
-        <div class="description">
+        <div class="last-description">
             <span>Total</span>
         </div>
-        
         <div class="total-price">₹125</div>
+        <div class="button-pay">
+        </div>
     </div>
+    <!--<div class="col-50"> -->
+    <button type="pay-button">Proceed to Checkout</button>
+    <!-- </div> -->
 </div>
+    
 
 <br>
 </body>

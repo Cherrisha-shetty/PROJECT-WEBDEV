@@ -1,37 +1,14 @@
-// heart animation
+function increaseValue() {
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}
 
-$('.like-btn').on('click', function() {
-    $(this).toggleClass('is-active');
-});
-
-//quantity buttons
-$('.minus-btn').on('click', function(e) {
-    e.preventDefault();
-    var $this = $(this);
-    var $input = $this.closest('div').find('input');
-    var value = parseInt($input.val());
-
-    if (value & amp; amp; gt; 1) {
-        value = value - 1;
-    } else {
-        value = 0;
-    }
-
-    $input.val(value);
-
-});
-
-$('.plus-btn').on('click', function(e) {
-    e.preventDefault();
-    var $this = $(this);
-    var $input = $this.closest('div').find('input');
-    var value = parseInt($input.val());
-
-    if (value & amp; amp; lt; 100) {
-        value = value + 1;
-    } else {
-        value = 100;
-    }
-
-    $input.val(value);
-});
+function decreaseValue() {
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value < 1 ? value = 1 : '';
+    value--;
+    document.getElementById('number').value = value;
+}
