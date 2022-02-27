@@ -5,68 +5,32 @@
     <title>BMS Canteen</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="stylesheet" href="D:\PROJECT WEBDEV\Cart\css\cart.css">
-    <link rel="stylesheet" href="D:\PROJECT WEBDEV\Cart\css\bootstrap.min.css">
-    <script type="text/javascript" src="D:\PROJECT WEBDEV\Cart\js\cart.js">
+    <link rel="stylesheet" href="../Cart/css/cart.css">
+    <script type="text/javascript" src="../Cart/JS/cart.js">
     </script>
 </head>
 
-<!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-
-            <a class="navbar-brand" href="../index.html">BMS Canteen</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item">
-                        <a href="../Canteens/canteen.html" class="nav-link smoothScroll">Canteens</a>
-                    </li>
-
-                    
-                    <li class="nav-item">
-                        <a href="D:\PROJECT WEBDEV\Order History\oh.html" class="nav-link smoothScroll">Order History</a>
-                    </li>
-
-
-                     <li class="nav-item">
-                        <div class="dropdown">
-                        
-                           <button class="dropbtn">Cart<i class="fa fa-caret-down"></i></button>
-                           <div class="dropdown-content">
-                              <a href="D:\PROJECT WEBDEV\Cart\cart.html"> View Cart </a>
-                               <a href="../CheckoutExp(1)/checkout.html">Checkout</a>
-                             
-                           </div>
-                        </div>
-                    </li>
-
-
-                    <li class="nav-item">
-                        <a href="#profile" class="nav-link smoothScroll">Profile</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#Signin" class="nav-link smoothScroll">Sign In</a>
-                    </li>
-
-
-                </ul>
-
-                
+<section class="topnav" id="navbar">
+    <div class="topnav">
+        <a class="active" href="#home">BMS Canteen</a>
+        <div class="topnav-right">
+            <a href="#canteens">Canteens</a>
+            <a href="#cart">Cart</a>
+            <a href="#orderhistory">Order History</a>
+            <a href="javascript:void(0);" class="icon" onclick="Function()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">User </button>
+                <div class="dropdown-content">
+                    <a href="#">Sign up</a>
+                    <a href="#">Login</a>
+                </div>
             </div>
-
         </div>
-    </nav>
-
-
-
-
+    </div>
+</section>
+   
 <div class="shopping-cart">
     <!-- Title -->
     <div class="title">
@@ -163,17 +127,16 @@
             <span class="delete-btn"></span>
             <span class="like-btn"></span>
         </div>
-
         <div class="image">
             <img src="item-3.png" alt="" />
         </div>
-
         <div class="description">
             <span>Total</span>
         </div>
-
-       
-
+        
         <div class="total-price">₹125</div>
     </div>
 </div>
+
+<br>
+</html>
