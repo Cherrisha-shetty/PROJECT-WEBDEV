@@ -77,7 +77,7 @@
   body {
     margin: 0px;
     padding: 0px;
-    background: var(--white-color);
+    background: #2a0978;
     font-family: var(--base-font-family);
   }
 
@@ -273,9 +273,7 @@
     padding-right: 23px;
   }  
   
-  .dropbtn a:hover {
-    background-color: #c31;
-  }
+  .dropbtn a:hover {background-color: #c31;}
   
 
   /* The container <div> - needed to position the dropdown content */
@@ -325,6 +323,7 @@
     padding: 20px;
     padding-top: 60px;
   }
+  
   
   /* BUTTON */
 
@@ -435,70 +434,73 @@
     padding: 5rem 0;
   }
 
-
   /*---------------------------------------
-      ABOUT & TEAM            
-  -----------------------------------------*/
+  CANTEENS        
+-----------------------------------------*/
 
+  * {
+    box-sizing: border-box;
+  }
   
-
-  /*About Us*/
-  
-
+  /* Float four columns side by side */
   .column {
     float: left;
-    width: 23%;
-    margin-bottom: 16px;
-    margin:7px;
-    padding: 0px;
-  }
-  .row{
-    padding: 24px;
-    align-content: center;
-
+    width: 100%;
+    padding: 10px;
   }
 
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0px;
+    padding-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
     .column {
       width: 100%;
       display: block;
+      margin-bottom: 20px;
     }
   }
 
-  /* Add some shadows to create a card effect */
+  /* Style the counter cards */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #FFFFFF;
+    width: 100%;
+    background-color: #e4e9f7;
+    display: inline-block;
+    border-radius: 10px;
   }
 
-  /* Some left and right padding inside the container */
-  .container {
-    padding: 7px;
+  .canteen {
+    width: 35%;
+    display: block;
+    height: auto;
+    margin: 1%;
+    float: left;
+    padding: 5px;
   }
-
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .title {
-    color: grey;
+ 
+  .name{
+    float: left;
+    padding-top: 1%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
   }
   
-  .about.about.section{
-    border-radius: 30px;
-    height: 100%;
-    background-color: #000050;
-  }
-
-  .feature.feature{
-    background-color: #2a0978;
-  }
-
-  .about-title {
-    font-size: 32px;
-    color: white;
+  .description{
+    text-align: left;
+    padding: 5%;
+    padding-left: 3px;
   }
