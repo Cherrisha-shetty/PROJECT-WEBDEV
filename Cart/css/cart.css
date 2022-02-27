@@ -302,10 +302,12 @@ body {
 .total-price{
     width: 50%;
     padding-top: 15px;
-    padding-left:25%;
+    padding-left:15%;
     font-size: 16px;
     color: #43484D;
     font-weight: 300;
+    align-content: center;
+    width: 10%;
 }
 
 
