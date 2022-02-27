@@ -564,7 +564,6 @@
     padding-top: 2%;
     padding-left: 2%;
   }
-  
   .order-button
   { 
     font-size: 18px;
@@ -581,4 +580,9 @@
   .order-button:disabled
   {
     background-color: #969696;
+  }
+  .number {
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
   }

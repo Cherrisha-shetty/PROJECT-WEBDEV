@@ -211,7 +211,7 @@ body {
 /*Shopping cart*/
 
 .shopping-cart {
-    width: 750px;
+    width: 90%;
     height: auto;
     margin: 80px auto;
     background: #FFFFFF;
@@ -228,9 +228,9 @@ body {
     height: 60px;
     border-bottom: 1px solid #E1E8EE;
     padding: 20px 30px;
-    color: #5E6977;
+    color: black;
+    font-weight: bold;
     font-size: 18px;
-    font-weight: 400;
 }
 
 .item {
@@ -246,10 +246,10 @@ body {
 }
 
 .description {
-    padding-top: 15px;
+    padding-top: 0px;
     margin-right: 60px;
     width: 25%;
-    padding-left: 10%;
+    padding-left: 3%;
 }
 
 .description span {
@@ -289,7 +289,7 @@ body {
 
 .price {
     width: 83px;
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
     font-size: 16px;
     color: #43484D;
