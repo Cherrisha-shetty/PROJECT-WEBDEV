@@ -1,0 +1,50 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Signin Form</title>    
+    <link rel="stylesheet" type="text/css" href="../css/SignIn.css" media=""/>
+    <script type="text/javascript" src="../js/SignIn.js"></script>
+</head>
+<body>
+    
+
+    <div class="shopping-cart">
+        <div class="title">
+            SIGN IN
+        </div>
+
+        <div class="login-form-container">
+
+            <div id="close-login-btn" class="fas fa-times"></div>
+
+            <form action="../index.html" name="myform" method="post" onsubmit="return validateform()">
+                
+                    <div class="between-padding">
+                        <span>Email</span>
+                        <input type="email" name="name" class="box" placeholder="enter your email" id="a">
+                    </div>
+                    
+                    <div class="between-padding">
+                        <span>Password</span>
+                            <input type="password" name="password" class="box" placeholder="enter your password" id="b">
+                    </div>
+                
+                <div class="between-padding">
+                    <div class="checkbox"></div>
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me"> Remember Me</label>
+                </div>
+                
+                <div class="btn">
+                    <input type="submit" value="sign in" class="btn">
+                </div>
+                
+                <p>don't have an account ? <a href="Register.html">create one</a></p>
+            
+            </form>
+
+        </div>
+        
+    </div>
+</body>
+</html>

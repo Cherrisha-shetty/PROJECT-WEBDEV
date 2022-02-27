@@ -1,0 +1,473 @@
+/*EXPERIMENT*/
+body{
+	background-color: #005d53;
+}
+
+.container{
+	width: 60%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	border:none;
+	border-radius:31px;
+	position: relative;
+  	color: white;
+	padding-top: 40px;
+	
+
+}
+
+.title{
+	text-align:center;
+	font-size:45px;
+	font-weight: bold;
+	color:black;
+
+}
+
+.name {
+  position: absolute;
+  bottom: 45%;
+  left: 70px;
+}
+
+.number {
+  position: absolute;
+  bottom: 45%;
+  left: 350px;
+}
+
+.total {
+  position: absolute;
+  bottom: 400px;
+  right: 35px;
+}
+
+.valid-thru {
+  position: absolute;
+  bottom: 38px;
+  left: 70px;
+}
+
+
+.cvv {
+  position: absolute;
+  bottom: 110px;
+  left: 260px;
+  
+}
+
+.cred-num {
+  position: absolute;
+  bottom: 110px;
+  left: 70px;
+}
+
+
+.col-50 {
+  position:relative;
+  width: 250px;
+  padding: 0 16px;
+
+}
+
+.num-col-50 {
+  position:relative;
+  width: 230px;
+  padding: 0 16px;
+
+}
+
+
+
+.cvv-col-50 {
+  position:relative;
+  width:80px;
+  padding: 0 16px;
+}
+
+.vt-col-50 {
+  position:relative;
+  width:125px;
+  padding: 0 16px;
+
+}
+
+
+input[type=text] {
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 6px;
+  border: none;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, .15);
+  background-filter: blur(5px);
+  color:white;
+  box-sizing:border-box;
+  font-size: 15px;
+
+}
+
+@media screen(min-width>20px) and (max-width<150px){
+  input{
+    width: 70%
+}
+}
+
+.button-pay {
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+  
+}
+
+button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 70%;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+button:hover{
+  background-color: #1c522f;
+}
+
+
+@font-face {
+    font-family: 'Plain';
+    src: url('../fonts/Plain-Regular.woff2') format('woff2'),
+    url('../fonts/Plain-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plain';
+    src: url('../fonts/Plain-Light.woff2') format('woff2'),
+    url('../fonts/Plain-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plain';
+    src: url('../fonts/Plain-Bold.woff2') format('woff2'),
+    url('../fonts/Plain-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+:root {
+    --primary-color:        #f13a11;
+    --white-color:          #ffffff;
+    --dark-color:           #171819;
+    --about-bg-color:       #f9f9f9;
+
+    --gray-color:           #909090;
+    --link-color:           #404040;
+    --p-color:              #666262;
+
+    --base-font-family:     'Plain', sans-serif;
+    --font-weight-bold:     bold;
+    --font-weight-normal:   normal;
+    --font-weight-light:    300;
+    --font-weight-thin:     100;
+
+    --h1-font-size:         48px;
+    --h2-font-size:         36px;
+    --h3-font-size:         28px;
+    --h4-font-size:         24px;
+    --h5-font-size:         22px;
+    --h6-font-size:         22px;
+    --p-font-size:          18px;
+    --base-font-size:       16px;
+    --menu-font-size:       14px;
+
+    --border-radius-large:  100%;
+    --border-radius-small:  2px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--base-font-family);
+}
+
+/*---------------------------------------
+   TYPOGRAPHY              
+-----------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: var(--font-weight-thin);
+    line-height: normal;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -2px;
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+h4 {
+    font-size: var(--h4-font-size);
+}
+
+h5 {
+    font-size: var(--h5-font-size);
+}
+
+h6 {
+    color: var(--gray-color);
+    font-size: var(--h6-font-size);
+    line-height: inherit;
+    margin: 0;
+}
+
+p {
+    color: var(--p-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-light);
+    line-height: 1.5em;
+}
+
+b,
+strong {
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0;
+}
+
+.section {
+}
+
+/* NAVBAR */
+.topnav {
+    z-index: 1;
+    top: 0;
+    /*overflow: hidden;*/
+    overflow: visible;
+    background-color: #171819;
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a.active {display: block;}
+    .topnav a {display: none;}
+    .dropdown button{display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    /*.dropdown button {*/
+    /*  float: none;*/
+    /*  display: block;*/
+    /*  text-align: left;*/
+    /*}*/
+}
+
+.topnav a{
+    size: inherit;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.topnav a.active {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.topnav a:hover {
+    color: #f13a11;
+}
+
+.topnav a.active:hover {
+    color: #f13a11;
+}
+
+.topnav-right {
+    float: right;
+    padding-top: 5px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+/* DROPDOWN */
+
+.dropdown .dropbtn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropbtn:hover  {
+    color: #f13a11;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #00000000;
+    border: none;
+    text-transform: uppercase;
+    display: block;
+    color: var(--white-color);
+    font-size: var(--menu-font-size);
+    font-weight: var(--font-weight-normal);
+    padding: 2px 10px;
+    padding-left: 27px;
+    padding-right: 23px;
+}
+
+.dropbtn a:hover {background-color: #c31;}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /*text-transform: none;*/
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #c31;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*sticky*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding: 20px;
+    padding-top: 60px;
+}
+  
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BMS Canteen</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/Cart.css">
+    <script type="text/javascript" src="../js/Cart.js"></script>
+</head>
+<body>
+<div class="hero-image">
+<section class="topnav" id="navbar">
+    <div class="topnav">
+        <a class="active" href="../index.html">BMS Canteen</a>
+        <div class="topnav-right">
+            <a href="Canteen.html">Canteens</a>
+            <a href="Cart.html">Cart</a>
+            <a href="OrderHistory.html">Order History</a>
+            <a href="javascript:void(0);" class="icon" onclick="Function()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">User </button>
+                <div class="dropdown-content">
+                    <a href="Register.html">Sign up</a>
+                    <a href="SignIn.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="shopping-cart">
+    <div class="title">
+        CART
+    </div>
+
+    <!-- Product #1 -->
+    
+    <div class="item">
+        <div class="description">
+            <span>Oreo Milkshake</span>
+        </div>
+        <div class="plusminus">
+            <div class="value-button" id="decrease1" onclick="decreaseValue()" value="Decrease Value">-</div>
+            <input type="number" id="number" value="0" />
+            <div class="value-button" id="increase1" onclick="increaseValue()" value="Increase Value">+</div>
+        </div>
+        <div class="price">₹50</div>
+    </div>
+
+    <div class="item">
+        <div class="description">
+            <span>Schezwan Roll</span>
+        </div>
+        <div class="plusminus">
+        <div class="value-button" id="decrease2" onclick="decreaseValuesecond()" value="Decrease Value">-</div>
+        <input type="number" id="numbersecond" value="0" />
+        <div class="value-button" id="increase2" onclick="increaseValuesecond()" value="Increase Value">+</div>
+        </div>
+        <div class="price">₹45</div>
+    </div>
+
+    <div class="item">
+        <div class="description">
+            <span>Vada Pav</span>
+        </div>
+        <div class="plusminus">
+        <div class="value-button" id="decrease3" onclick="decreaseValuethird()" value="Decrease Value">-</div>
+        <input type="number" id="numberthird" value="0" />
+        <div class="value-button" id="increase3" onclick="increaseValuethird()" value="Increase Value">+</div>
+        </div>
+        <div class="price">₹30</div>
+    </div>
+    
+    <!-- Total -->
+    
+    <div class="item">
+        <div class="last-description">
+            <span>Total</span>
+        </div>
+        <div class="total-price">
+            <input type="number" id="cost" value="0" readonly/>
+        </div>
+        <div class="button-pay">
+        </div>
+    </div>
+    <!--<div class="col-50"> -->
+    <a class="pay-button" href="Checkout.html">Proceed to Checkout</a>
+    <!-- </div> -->
+</div>
+    
+
+</div>
+</body>
+</html>
