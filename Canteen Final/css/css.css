@@ -453,6 +453,8 @@
   .row {
     margin: 0px;
     padding-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
   }
 
   /* Clear floats after the columns */
