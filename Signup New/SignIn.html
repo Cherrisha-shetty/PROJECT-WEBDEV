@@ -4,31 +4,34 @@
     <title>Signin Form</title>    
     <link rel="stylesheet" type="text/css" href="../Signup New/css/signup.css" media=""/>
     <script type="text/javascript" src="../js/SignIn.js"></script>
-</head>    
+</head>
 <body>
 
-    <div class="login-form-container">
+    <div class="shopping-cart">
+        <div class="title">
+            SIGN IN
+        </div>
 
-        <div id="close-login-btn" class="fas fa-times"></div>
+        <div class="login-form-container">
 
-        <form action="../index.html" name="myform" method="post" onsubmit="return validateform()">
-            <h3>sign in</h3>
-            <span>username</span>
-            <input type="email" name="name" class="box" placeholder="enter your email" id="a">
-            <span>password</span>
-            <input type="password" name="password" class="box" placeholder="enter your password" id="b">
-            <div class="checkbox">
-                <input type="checkbox" name="" id="remember-me">
-                <label for="remember-me"> remember me</label>
-            </div>
-            <input type="submit" value="sign in" class="btn">
-            <p>don't have an account ? <a href="register.html">create one</a></p>
-        </form>
+            <div id="close-login-btn" class="fas fa-times"></div>
 
+            <form action="../index.html" name="myform" method="post" onsubmit="return validateform()">
+                <span class = "usrname">username</span>
+                <input type="email" name="name" class="box" placeholder="enter your email" id="a">
+                <span>password</span>
+                <input type="password" name="password" class="box" placeholder="enter your password" id="b">
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me"> remember me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+                <p>don't have an account ? <a href="register.html">create one</a></p>
+            </form>
+
+        </div>
+        
     </div>
 
-
-
-
-</body>    
+</body>
 </html>

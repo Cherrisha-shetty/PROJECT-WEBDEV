@@ -584,12 +584,12 @@
   
   .details
   {
-    /*font-size: 20px;*/
-    /*margin-left: 50%;*/
-    /*margin-right: 2%;*/
-    /*margin-top: 20%;*/
-    /*margin-bottom: 2%;*/
-    /*text-align: right;*/
+    font-size: 20px;
+    margin-left: 50%;
+    margin-right: 2%;
+    margin-top: 20%;
+    margin-bottom: 2%;
+    text-align: right;
   }
   
   .order-queue, h3

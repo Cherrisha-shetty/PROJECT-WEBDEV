@@ -7,10 +7,6 @@ function validateform(){
         alert("Name can't be blank");
         return false;
     }
-    else if(password.length<6){
-        alert("Password must be at least 6 characters long.");
-        return false;
-    }
     else if(name.indexOf('@bmsce.ac.in') > -1){
         if(name== "test.cs20@bmsce.ac.in" && password=="123456") 
         {
@@ -25,6 +21,10 @@ function validateform(){
             alert("Invalid Credentials");
             return false;
         }
+    }
+    else if(password.length<6){
+        alert("Password must be at least 6 characters long.");
+        return false;
     }
     else{
         alert("USE BMSCE EMAIL!")
