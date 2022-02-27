@@ -254,8 +254,15 @@ body {
 .last-description{
     padding-top: 15px;
     margin-right: 60px;
-    width: 25%;
+    width: 50%;
     padding-left: 10%;
+}
+
+.last-description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
 }
 
 /* .description span:first-child {
@@ -283,13 +290,13 @@ body {
     float: right;
 }
 
-total-price{
-    width: 83px;
+.total-price{
+    width: 50%;
     padding-top: 15px;
+    padding-left:25%;
     font-size: 16px;
     color: #43484D;
     font-weight: 300;
-    float: right;
 }
 
 
@@ -384,4 +391,21 @@ input[type=number]::-webkit-outer-spin-button {
     padding-left: 10%;
 }
 
+.pay-button{
+    border: none;
+    background-color: #4CAF50;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bolder;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.pay-button:hover{
+    background-color: #39803c;
+    color: white;
+}
 
