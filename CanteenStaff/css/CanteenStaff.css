@@ -446,7 +446,7 @@
   .column {
     float: left;
     width: 100%;
-    padding: 10px;
+    padding: 100px;
     padding-top: 2%;
   }
 
@@ -475,6 +475,9 @@
 
   /* Style the counter cards */
   .card {
+    text-align: center;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
     width: 100%;
     background-color: #e4e9f7;
     display: inline-block;
@@ -507,9 +510,32 @@
   }
   
   .orders{
-    text-transform: capitalize;
+    text-transform: none;
     text-align: left;
-    padding-left: 90%;
+    /*padding-left: 90%;*/
+  }
+  
+  .qty
+  {
+    text-transform: lowercase;
+    display: block;
+  }
+  
+  .total
+  {
+    text-transform: uppercase;
+    padding-left: 135%;
+  }
+  
+  .cost
+  {
+    margin-left: 250%;
+  }
+  
+  .qty
+  {
+    font-weight: bold;
+    margin-left: 100%;  
   }
   
   .date
@@ -525,7 +551,7 @@
     font-size: 20px;
     margin-left: 50%;
     margin-right: 2%;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 2%;
     text-align: right;
   }
@@ -539,4 +565,20 @@
     padding-left: 2%;
   }
   
+  .order-button
+  { 
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #ff4848;
+    text-align: center;
+  }
   
+  .order-button:hover
+  {
+    background-color: #82ff71;
+  }
+  
+  .order-button:disabled
+  {
+    background-color: #969696;
+  }
