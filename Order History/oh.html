@@ -7,72 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="css/oh.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 
 <body>
 
-
-
-
-<!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-
-            <a class="navbar-brand" href="../index.html">BMS Canteen</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item">
-                        <a href="../Canteens/canteen.html" class="nav-link smoothScroll">Canteens</a>
-                    </li>
-
-                    
-                    <li class="nav-item">
-                        <a href="D:\PROJECT WEBDEV\Order History\oh.html" class="nav-link smoothScroll">Order History</a>
-                    </li>
-
-
-                     <li class="nav-item">
-                        <div class="dropdown">
-                        
-                           <button class="dropbtn">Cart<i class="fa fa-caret-down"></i></button>
-                           <div class="dropdown-content">
-                              <a href="D:\PROJECT WEBDEV\Cart\cart.html"> View Cart </a>
-                               <a href="../CheckoutExp(1)/checkout.html">Checkout</a>
-                             
-                           </div>
-                        </div>
-                    </li>
-
-
-                    <li class="nav-item">
-                        <a href="#profile" class="nav-link smoothScroll">Profile</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#Signin" class="nav-link smoothScroll">Sign In</a>
-                    </li>
-
-
-                </ul>
-
-                
+<section class="topnav" id="navbar">
+    <div class="topnav">
+        <a class="active" href="#home">BMS Canteen</a>
+        <div class="topnav-right">
+            <a href="#canteens">Canteens</a>
+            <a href="#cart">Cart</a>
+            <a href="#orderhistory">Order History</a>
+            <a href="javascript:void(0);" class="icon" onclick="Function()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">User </button>
+                <div class="dropdown-content">
+                    <a href="#">Sign up</a>
+                    <a href="#">Login</a>
+                </div>
             </div>
-
         </div>
-    </nav>
-
-
-
-
-
-
+    </div>
+</section>
 
 <div class="container bootdey">
     <div class="panel panel-default panel-order">
@@ -88,9 +46,7 @@
                         <div class="col-md-12">
                             <div class="pull-right"><label class="label label-danger">Pending</label></div>
                             <span><strong>Ordered item</strong></span> <span class="label label-info">Cheese Sandwich</span><br /> Quantity : 2, cost: ₹80<br />
-                            <a data-placement="top" class="btn btn-success btn-xs glyphicon glyphicon-ok" href="#" title="View"></a>
-                            <a data-placement="top" class="btn btn-danger btn-xs glyphicon glyphicon-trash" href="#" title="Danger"></a>
-                            <a data-placement="top" class="btn btn-info btn-xs glyphicon glyphicon-usd" href="#" title="Danger"></a>
+                           
                         </div>
                         <div class="col-md-12">order made on: 07/01/2021
                         </div>

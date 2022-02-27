@@ -454,6 +454,8 @@
     padding: 0.2%;
     margin: 0px;
     background-color: #f1f1f1;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
   }
 
   /* Clear floats after the columns */
