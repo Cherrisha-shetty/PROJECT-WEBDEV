@@ -386,6 +386,38 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+input#numbersecond {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+input[type=numbersecond]::-webkit-inner-spin-button,
+input[type=numbersecond]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input#numberthird {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+input[type=numberthird]::-webkit-inner-spin-button,
+input[type=numberthird]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .plusminus{
     padding-right: 10%;
     padding-left: 10%;
