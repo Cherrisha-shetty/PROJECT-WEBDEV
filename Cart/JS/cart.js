@@ -14,14 +14,14 @@ function decreaseValue() {
 }
 
 function increaseValuesecond() {
-    var value = parseInt(document.getElementById('number').value, 10);
+    var value = parseInt(document.getElementById('numbersecond').value, 10);
     value = isNaN(value) ? 0 : value;
     value++;
     document.getElementById('numbersecond').value = value;
 }
 
 function decreaseValuesecond() {
-    var value = parseInt(document.getElementById('number').value, 10);
+    var value = parseInt(document.getElementById('numbersecond').value, 10);
     value = isNaN(value) ? 0 : value;
     value < 1 ? value = 1 : '';
     value--;
@@ -30,14 +30,14 @@ function decreaseValuesecond() {
 
 
 function increaseValuethird() {
-    var value = parseInt(document.getElementById('number').value, 10);
+    var value = parseInt(document.getElementById('numberthird').value, 10);
     value = isNaN(value) ? 0 : value;
     value++;
     document.getElementById('numberthird').value = value;
 }
 
 function decreaseValuethird() {
-    var value = parseInt(document.getElementById('number').value, 10);
+    var value = parseInt(document.getElementById('numberthird').value, 10);
     value = isNaN(value) ? 0 : value;
     value < 1 ? value = 1 : '';
     value--;
