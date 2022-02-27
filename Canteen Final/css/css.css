@@ -446,14 +446,15 @@
   .column {
     float: left;
     width: 100%;
-    padding: 0 10px;
+    padding: 10px;
   }
 
   /* Remove extra left and right margins, due to padding */
   .row {
-    padding: 0.2%;
     margin: 0px;
-    background-color: #f1f1f1;
+    padding-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
   }
 
   /* Clear floats after the columns */
@@ -478,7 +479,7 @@
     width: 100%;
     background-color: #e4e9f7;
     display: inline-block;
-    border-radius: 0.5%;
+    border-radius: 10px;
   }
 
   .canteen {
