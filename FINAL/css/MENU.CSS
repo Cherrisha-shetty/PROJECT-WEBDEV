@@ -65,12 +65,16 @@ header .navbar a:hover {
 }
 
 .title {
+  width: 65%;
   height: 60px;
   border-bottom: 1px solid #e1e8ee00;
   padding: 20px 30px;
   /* color: #5e6977; */
   font-size: 25px;
   font-weight: 400;
+  padding-left: 46%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .item {
@@ -112,13 +116,15 @@ header .navbar a:hover {
 }
 .description6 {
   padding-top: 10px;
-  margin-right: 60px;
+  margin-right: 3%;
   width: 115px;
   font-size: 18px;
+  margin-left: 20%;
 }
 .quantity {
   padding-top: 20px;
-  margin-right: 60px;
+  margin-right: 150px;
+  margin-left: 150px;
   font-size: 20px;
 }
 
@@ -164,6 +170,7 @@ input:focus {
   text-align: center;
   font-size: 18px;
   font-weight: 300;
+  margin-right: 20%;
 }
 
 
