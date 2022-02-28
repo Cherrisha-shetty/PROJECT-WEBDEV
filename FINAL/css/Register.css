@@ -1,9 +1,22 @@
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/SignInBG.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url("Cart/bg.jpg");
+    background-image: url("../Images/SignInBG.jpg");
     background-color: #696969;
 }
 
@@ -14,23 +27,58 @@ body {
     transform: translate(-50%, -50%);
     width: 30%;
     height: auto;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
     border-radius: 6px;
     padding: 1%;
 }
 
 .title {
-    height: 80px;
-    border-bottom: 1px solid #E1E8EE;
+    text-transform: uppercase;
+    height: 70px;
+    border-bottom: 2px solid #a6a6a6;
     color: #5E6977;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
 }
 
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 25%;
+    padding: 2%;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #ff7c7c;
+    text-align: center;
+    color: black;
+}
+
+.btn1
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 25%;
+    padding: 2%;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #a8ff7c;
+    text-align: center;
+    color: black;
+}
+
 .between-padding
 {
-    text-align: center;
     padding-bottom: 5%;
 }

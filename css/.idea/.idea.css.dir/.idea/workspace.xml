@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ad00ebc-6760-4599-9438-928e1f047627" name="Changes" comment="">
+    <list default="true" id="7bb05d93-0ad9-4e62-8323-ba91da727b3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../FINAL/Pages/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/Pages/Register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FINAL/Pages/SignIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/Pages/SignIn.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FINAL/css/Cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/css/Cart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FINAL/css/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/css/Register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FINAL/css/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/css/SignIn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pages.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pages.dir/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/Cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/Cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/SignIn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pages/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pages/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pages/SignIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pages/SignIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/SignIn.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="25iCpLlXT4qVl01YXUOgS2zc7OF" />
+  <component name="ProjectId" id="25iIiatdr6FAmiIons6Bcf6is2o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,27 +28,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ad00ebc-6760-4599-9438-928e1f047627" name="Changes" comment="" />
-      <created>1646000722732</created>
+      <created>1646003617794</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1646000722732</updated>
-      <workItem from="1646000730562" duration="90000" />
-      <workItem from="1646009041794" duration="135000" />
+      <updated>1646003617794</updated>
+      <workItem from="1646003626113" duration="2000" />
+      <workItem from="1646003661443" duration="1000" />
+      <workItem from="1646003683624" duration="17000" />
+      <workItem from="1646008992069" duration="5000" />
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

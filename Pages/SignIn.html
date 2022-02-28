@@ -1,7 +1,7 @@
 <!DOCTYPE html>    
 <html>    
 <head>    
-    <title>Signin Form</title>    
+    <title>SignIn Form</title>    
     <link rel="stylesheet" type="text/css" href="../css/SignIn.css" media=""/>
     <script type="text/javascript" src="../js/SignIn.js"></script>
 </head>
@@ -18,28 +18,63 @@
             <div id="close-login-btn" class="fas fa-times"></div>
 
             <form action="../index.html" name="myform" method="post" onsubmit="return validateform()">
+<!--                -->
+<!--                    <div class="between-padding">-->
+<!--                        <span>Email</span>-->
+<!--                        <input type="email" name="name" class="box" placeholder="enter your email" id="a">-->
+<!--                    </div>-->
+<!--                    -->
+<!--                    <div class="between-padding">-->
+<!--                        <span>Password</span>-->
+<!--                            <input type="password" name="password" class="box" placeholder="enter your password" id="b">-->
+<!--                    </div>-->
+<!--                -->
+<!--                <div class="between-padding">-->
+<!--                    <div class="checkbox"></div>-->
+<!--                    <input type="checkbox" name="" id="remember-me">-->
+<!--                    <label for="remember-me"> Remember Me</label>-->
+<!--                </div>-->
+<!--                -->
+<!--                <div class="btn">-->
+<!--                    <input type="submit" value="sign in" class="btn">-->
+<!--                </div>-->
+<!--                -->
+<!--                <p>don't have an account ? <a href="Register.html">create one</a></p>-->
+            
+            <table style="width: 100%">
                 
-                    <div class="between-padding">
-                        <span>Email</span>
-                        <input type="email" name="name" class="box" placeholder="enter your email" id="a">
-                    </div>
-                    
-                    <div class="between-padding">
-                        <span>Password</span>
-                            <input type="password" name="password" class="box" placeholder="enter your password" id="b">
-                    </div>
+                <tr>
+                    <td>
+                        <span style="float: left">Email</span>
+                    </td>
+                    <td>
+                        <input type="email" class="a" name="name" class="box" placeholder="Enter Your Email" id="a">
+                    </td>
+                </tr>
                 
+                <tr>
+                    <td>
+                        <span style="float: left">Password</span>
+                    </td>
+                    <td>
+                        <div class="between-padding">
+                        <input type="password" class="a" name="password" class="box" placeholder="Enter Your Password" id="b">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
                 <div class="between-padding">
-                    <div class="checkbox"></div>
-                    <input type="checkbox" name="" id="remember-me">
-                    <label for="remember-me"> Remember Me</label>
+                <div class="checkbox"></div>
+                <input type="checkbox" name="" id="remember-me">
+                    
+                <label for="remember-me"> Remember Me</label>
                 </div>
                 
-                <div class="btn">
-                    <input type="submit" value="sign in" class="btn">
-                </div>
-                
-                <p>don't have an account ? <a href="Register.html">create one</a></p>
+                <input type="submit" value="sign in" class="btn">
+
+                <p>Don't have an Account ? <a href="Register.html">Create One</a></p>
+            
             
             </form>
 
