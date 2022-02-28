@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ad00ebc-6760-4599-9438-928e1f047627" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../FINAL/Pages/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/Pages/Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FINAL/Pages/SignIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/Pages/SignIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FINAL/css/Cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/css/Cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FINAL/css/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/css/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FINAL/css/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/../FINAL/css/SignIn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pages.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pages.dir/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/Cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/Cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/SignIn.css" afterDir="false" />
-    </list>
+    <list default="true" id="2ad00ebc-6760-4599-9438-928e1f047627" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +33,7 @@
       <updated>1646000722732</updated>
       <workItem from="1646000730562" duration="90000" />
       <workItem from="1646009041794" duration="135000" />
+      <workItem from="1646036812073" duration="274000" />
     </task>
     <servers />
   </component>
