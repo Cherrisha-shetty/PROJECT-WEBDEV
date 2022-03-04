@@ -1,39 +1,4 @@
-/*
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #13020200;
-  padding: 2rem 9%;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
 
-header .logo {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: #666;
-}
-
-header .logo i {
-  padding-right: 0.5rem;
-  color: var(--red);
-}
-
-header .navbar a {
-  font-size: 2rem;
-  margin-left: 2rem;
-  color: #666;
-}
-
-header .navbar a:hover {
-  color: #fff;
-}
-*/
  */
 .food-cart {
   position: relative;
@@ -65,16 +30,17 @@ header .navbar a:hover {
 }
 
 .title {
-  width: 65%;
-  height: 60px;
   border-bottom: 1px solid #e1e8ee00;
-  padding: 20px 30px;
+  /*padding: 20px 30px;*/
+  padding-top: 5%;
+  padding-bottom: 5%;
   /* color: #5e6977; */
   font-size: 25px;
   font-weight: 400;
-  padding-left: 46%;
+  /*padding-left: 40%;*/
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
 }
 
 .item {
@@ -88,25 +54,6 @@ header .navbar a:hover {
   padding-top: 30px;
   margin-right: 60px;
 }
-
-/* .is-active {
-  animation-name: animate;
-  animation-duration: 0.8s;
-  animation-iteration-count: 1;
-  animation-timing-function: steps(28);
-  animation-fill-mode: forwards;
-}
-@keyframes animate {
-  0% {
-    background-position: left;
-  }
-  50% {
-    background-position: right;
-  }
-  100% {
-    background-position: right;
-  }
-} */
 
 .description {
   padding-top: 10px;
@@ -174,11 +121,7 @@ input:focus {
 }
 
 
-
-
-
-
-@font-face {
+ @font-face {
   font-family: 'Plain';
   src: url('../fonts/Plain-Regular.woff2') format('woff2'),
   url('../fonts/Plain-Regular.woff') format('woff');
@@ -578,4 +521,70 @@ a:focus {
   outline: none;
   text-decoration: none;
 }
-  
+
+
+ body, html {
+   height: 100%;
+ }
+
+ /* The hero image */
+ .hero-image-vk {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/VidhyarthiKhaana.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+ .hero-image-sns {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/SipNSnack.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ .hero-image-kk {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/KaapiKuteera.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+ .hero-image-nc {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Nescafe.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ 
+ /*.hero-text {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   
+ }*/
+ 
+ .rounded{
+   margin-left:39.5%;
+   border-radius:10px;
+   top: 30%;
+   background-color: #011612;
+   padding: 20px;
+   width:auto;
+   height:auto;
+   align-items: center;
+   text-align: center;
+   position: absolute;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+ }
