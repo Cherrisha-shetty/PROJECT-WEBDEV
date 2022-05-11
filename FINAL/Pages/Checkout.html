@@ -33,6 +33,12 @@
 
 	<div class="container">
 		<img src="../Images/CheckoutCardUpdated.svg" alt="checkoutcard"/>
+		<div class="total">
+			<div class="num-col-50">
+             			<label for="fname"><i class="fa fa-user"></i>Total</label>
+            			<input type="text" id="total" name="total" placeholder="" readonly>
+			</div>
+		</div>
 		<div class="name">
 			<div class="col-50">
              			<label for="fname"><i class="fa fa-user"></i>Name</label>
@@ -45,17 +51,11 @@
             			<input type="text" id="num" name="num" placeholder="1234567890">
 			</div>
 		</div>
-		<div class="total">
-			<div class="num-col-50">
-             			<label for="fname"><i class="fa fa-user"></i>Total</label>
-            			<input type="text" id="total" name="total" placeholder="" readonly>
+		<div class="cred-num">
+			<div class="col-50">
+            			<label for="ccnum">Credit card number</label>
+            			<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
 			</div>
-		</div>
-		<div class="valid-thru">
-			<div class="vt-col-50">
-            <label for="expmonth">Valid Through</label>
-            <input type="text" id="exp" name="exp" placeholder="MM/YY">
-	</div>
 		</div>
 		<div class="cvv">
 			<div class="cvv-col-50">
@@ -63,16 +63,16 @@
                 		<input type="text" id="cvv" name="cvv" placeholder="123">
               		</div>
 		</div>
+		<div class="valid-thru">
+			<div class="vt-col-50">
+            <label for="expmonth">Valid Through</label>
+            <input type="text" id="exp" name="exp" placeholder="MM/YY">
+	</div>
+		</div>
 		<div class="button-pay">
 			<div class="col-50">
                 		<button type="button">Pay</button>
               		</div>
-		</div>
-		<div class="cred-num">
-			<div class="col-50">
-            			<label for="ccnum">Credit card number</label>
-            			<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-			</div>
 		</div>
 	</div>
 <br>
